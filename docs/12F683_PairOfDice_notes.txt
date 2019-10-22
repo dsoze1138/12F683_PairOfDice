@@ -1,0 +1,23 @@
+bit 0 - center  1 - zero   3 - five
+bit 1 - TL-BR   1 - seven  3 - four
+bit 2 - CL-CR   1 - one    3 - three
+bit 3 - TR-BL   1 - six    3 - two
+
+
+bits          bits 1 and 0
+3&2  0-0      0-1      1-0      1-1     0000 - 
+    O   O    O   O    *   O    *   O    0001 - one
+0-0 O O O    O * O    O O O    O * O    0010 - two
+    O   O    O   O    O   *    O   *    0011 - three
+                                        0100 - 
+    O   O    O   O    *   O    *   O    0101 - 
+0-1 * O *    * * *    * O *    * * *    0110 - 
+    O   O    O   O    O   *    O   *    0111 - 
+                                        1000 - 
+    O   *    O   *    *   *    *   *    1001 - 
+1-0 O O O    O * O    O O O    O * O    1010 - four
+    *   O    *   O    *   *    *   *    1011 - five
+                                        1100 - 
+    O   *    O   *    *   *    *   *    1101 - 
+1-1 * O *    * * *    * O *    * * *    1110 - six
+    *   O    *   O    *   *    *   *    1111 - 
